@@ -24,7 +24,7 @@ app.get("/about", (req, res) => {
   res.send("welcome to about mysef");
 });
 app.get("/gallary", (req, res) => {
-  res.send("welcome to gallery");
+  res.send("welcome to gallery...");
 });
 app.post("/new", (req, res) => {
   console.log(req.body.name);
